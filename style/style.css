@@ -1,0 +1,45 @@
+.headfullwidth {
+	width: 100%;
+	background: #3B2A03;
+	opacity: .5;
+}
+
+.navbar {
+	float: left;
+	margin: 5px;
+	margin-top: 5px;
+}
+
+.container {
+	text-align: center;
+}
+
+nav a{
+	margin-right: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFCF00;
+	text-decoration: none;
+}
+
+nav a:active {
+	background: #FFCF00
+}
+
+h1 {
+	text-align: center;
+	font-weight: 200;
+}
+h2 {
+	font-size: 1em;
+}
+
+.location {
+	font-size: 2em;
+	font-weight: bold;
+}
