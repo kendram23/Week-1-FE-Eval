@@ -1,6 +1,10 @@
+body {
+	background: #331E02;
+}
+
 .headfullwidth {
 	width: 100%;
-	background: #3B2A03;
+	background: #
 	opacity: .5;
 }
 
@@ -15,10 +19,10 @@
 }
 
 nav a{
-	margin-right: 10px;
-	font-size: 2em;
+	margin-right: 1em;
+	font-size: 2.2em;
 	font-weight: bold;
-	color: white;
+	color: #AD8939;
 	text-decoration: none;
 }
 
@@ -33,13 +37,15 @@ nav a:active {
 
 h1 {
 	text-align: center;
-	font-weight: 200;
+	font-weight: ;
 }
-h2 {
+.description {
 	font-size: 1em;
+	color: white;
 }
 
 .location {
 	font-size: 2em;
 	font-weight: bold;
+	color: #FFCF00;
 }
