@@ -1,28 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Cantata+One);
+
 body {
-	background: #331E02;
+	background-image: url(images/itap_image.jpg) repeat;
+	/*width: 1170px;
+	margin: auto;*/
 }
+
+/* Extends the width of the nav bar to 100% of the screen*/
 
 .headfullwidth {
 	width: 100%;
-	background: #
-	opacity: .5;
+	background: #A88A62;
+	text-align: center;
 }
+
+/* These sections control the navigation bar*/
 
 .navbar {
 	float: left;
 	margin: 5px;
-	margin-top: 5px;
-}
-
-.container {
+	padding: 1em;
 	text-align: center;
 }
 
 nav a{
 	margin-right: 1em;
-	font-size: 2.2em;
+	font-family: Cantata One;
+	font-size: 2em;
 	font-weight: bold;
-	color: #AD8939;
+	color: #965E31;
 	text-decoration: none;
 }
 
@@ -32,20 +38,81 @@ nav a:hover {
 }
 
 nav a:active {
-	background: #FFCF00
+	background: #FFCF00;
 }
 
-h1 {
+/* This covers all of the inner divs so that they are all centered on the page*/
+
+.container {
 	text-align: center;
-	font-weight: ;
 }
+
+/* Contols the banner image at the top of the page*/
+
+#banner {
+	margin: 15px 0;
+}
+
 .description {
 	font-size: 1em;
-	color: white;
+	color: #965E31;
+	margin-top: .5em;
 }
 
+/*Wraps the content in a solid color*/
+
+#content_container {
+	background-color: #2b1e01;
+}
+
+/*This controls the look of the locations and addresses */
+
 .location {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
-	color: #FFCF00;
+	font-family: Cantata One;
+	text-transform: uppercase;
+	background: #A88A62;
+	padding: 5px;
+}
+
+.location a {
+	color: #965E31;
+}
+
+.location a:hover {
+	text-decoration: none;
+}
+
+/*This controls just the address and phone for each location*/
+
+.address {
+	color: #A88A62;
+	padding: .5em;
+}
+
+.phone {
+	color: #A88A62;
+	margin-top: -10px;
+}
+
+.verticalLine {
+    border-top: thick solid black;
+}
+
+/*This controls the look of the footer which spans the length of the website*/
+
+#footer {
+	text-align: center;
+	color: white;
+	width: 100%;
+	background: #A88A62;
+}
+
+#footer a{
+	margin-right: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	color: #965E31;
+	text-decoration: none;
 }
