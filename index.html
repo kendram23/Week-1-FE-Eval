@@ -3,14 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>International Tap House</title>
+        
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" />
+		
 		<!-- Link to external stylesheet -->
 		<link rel="stylesheet" href="style/style.css" />
+        
         <!-- put in font awesome -->
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <style type="text/css">
-		</style>
+
     </head>
 <body>
 
@@ -33,85 +35,87 @@
 				</div>
 			</div> <!-- This is the end of the navbar -->
 		</div>
-	</div> <!-- This is the end of the headerwrapper -->
-	
-	<!-- This is the top 3 rows of the hero-wrapper design -->
-	
-	
-		<div class="container">
-			<div class="row clearfix">
-				<div class="col-md-2 column">
-				</div>
-				<div class="col-md-8 column">
-					<h1>Welcome to <span style="color: #FFCF00; font-weight: bold;">International Tap House</span></h1>
-				</div>
-				<div class="col-md-2 column">
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-1 column">
-				</div>
-				<div class="col-md-10 column">
-					<img src="http://placehold.it/900x150" />
-				</div>
-				<div class="col-md-1 column">
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-1 column">
-				</div>
-				<div class="col-md-10 column">
-					<h2 class="description">Stop in, relax and experience all the world has to offer in beer. Sample a Pilsner from Praque, an IPA from CA, an Abbey from Antwerp or better yet take in the blossoming beer scene in St. Louis. We are not only committed to the local beer drinker we remain committed to the local beer brewer.</h2>
-				</div>
-				<div class="col-md-1 column">
-				</div>
-			</div>
+	</div> <!-- This is the end of the headfullwidth section -->
+
+
+	<!-- This div covers the entire body text outside of the footer and header to wrap it in the same background style -->
+	<div id="content_container" class="container"> 
+
+	 <!-- This is the header image and text -->
 		<div class="row clearfix">
-			<div class="col-md-2 column">
+			<div class="col-md-1 column">
 			</div>
-			<div class="col-md-4 column">
-				<h3 class="location">Chesterfield</h3>
-				<img src="http://placehold.it/300x200" />		
+			<div class="col-md-10 column">
+				<img id="banner" src="images/itap_banner.png" />
 			</div>
-			<div class="col-md-4 column">
-				<h3 class="location">Central West End</h3>
-				<img src="images/cwe.png" />		
-			</div>
-			<div class="col-md-2 column">
-			</div>
-		</div>
-		<div class="row clearfix">
-			<div class="col-md-2 column">
-			</div>
-			<div class="col-md-4 column">
-				<h3 class="location">Columbia</h3>
-				<img src="images/columbia.png" />		
-			</div>
-			<div class="col-md-4 column">
-				<h3 class="location">Soulard</h3>
-				<img src="images/soulard.png" />		
-			</div>
-			<div class="col-md-2 column">
+			<div class="col-md-1 column">
 			</div>
 		</div>
 		<div class="row clearfix">
 			<div class="col-md-1 column">
 			</div>
 			<div class="col-md-10 column">
+				<h2 class="description">Stop in, relax and experience all the world has to offer in beer. Sample a Pilsner from Praque, an IPA from CA, an Abbey from Antwerp or better yet take in the blossoming beer scene in St. Louis. We are not only committed to the local beer drinker we remain committed to the local beer brewer.</h2>
+			</div>
+			<div class="col-md-1 column">
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-2 column">
+			</div>
+			<div class="col-md-4 column">
+				<h3 class="location"><a href="#">Chesterfield</h3></a>
+				<a href="#"><img src="images/chesterfield.png" /></a>
+				<p class="address">161 Long Rd. | Chesterfield, MO 63005</p>
+				<p class="phone">p.636.537.8787</p>
+			</div>
+			<div class="col-md-4 column">
+				<h3 class="location"><a href="#">Central West End</h3></a>
+				<a href="#"><img src="images/cwe.png" /></a>
+				<p class="address">16 S. Euclid | St. Louis, MO 63108</p>
+				<p class="phone">p.314.367.4827</p>
+			</div>
+			<div class="col-md-2 column">
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-2 column">
+			</div>
+			<div class="col-md-4 column">
+				<h3 class="location"><a href="#" alt="Columbia Location">Columbia</h3></a>
+				<a href="#" alt="Columbia Location"><img src="images/columbia.png" /></a>
+				<p class="address">308 9th Street | Columbia, MO 65201</p>
+				<p class="phone"></p>
+			</div>
+			<div class="col-md-4 column">
+				<h3 class="location"><a href="#" alt="Soulard Location">Soulard</h3></a>
+				<a href="#" alt="Soulard Location"><img src="images/soulard.png" /></a>
+				<p class="address">1711 S. 9th Street | St. Louis, MO 63104</p>
+				<p class="phone">p.314.621.4333</p>	
+			</div>
+			<div class="col-md-2 column">
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="container">
+		<div class="row clearfix">
+			<div class="col-md-1 column">
+			</div>
+			<div class="col-md-10 column">
 				<footer>
-					<a href="#">Home</a>
-					<a href="#">Beers</a>
-					<a href="#">Entertainment</a>
-					<a href="#">Specials</a>
-					<a href="#">Press</a>
-					<a href="#">Locations</a>
-					<a href="#">Contact</a>
+					<p>&copy;2013 International Tap House</p>
+					<a href="#">Home <i class="fa fa-beer"></i></a>
+					<a href="#">Beers <i class="fa fa-beer"></i></a>
+					<a href="#">Entertainment <i class="fa fa-beer"></i></a>
+					<a href="#">Specials <i class="fa fa-beer"></i></a>
+					<a href="#">Press <i class="fa fa-beer"></i></a>
+					<a href="#">Locations <i class="fa fa-beer"></i></a>
+					<a href="#">Contact <i class="fa fa-beer"></i></a>
 				</footer>
 			</div>
 			<div class="col-md-1 column">
 			</div>
 		</div>
 	</div>
-
 </body>
 </html>
